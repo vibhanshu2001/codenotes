@@ -1,12 +1,21 @@
 {
-  "name": "codenotes",
-  "displayName": "CodeNotes",
+  "name": "vibhanshugarg-codenotes",
+  "displayName": "CodeNotes - Inline Code Notes",
   "description": "Add and manage notes directly in your code with multi-author support",
   "version": "1.0.0",
-  "publisher": "codenotes",
+  "publisher": "vibhanshugarg",
   "author": {
     "name": "Vibhanshu Garg",
     "email": "v2001.garg@gmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/vibhanshu2001/codenotes.git"
+  },
+  "homepage": "https://github.com/vibhanshu2001/codenotes#readme",
+  "bugs": {
+    "url": "https://github.com/vibhanshu2001/codenotes/issues"
   },
   "engines": {
     "vscode": "^1.90.0"
