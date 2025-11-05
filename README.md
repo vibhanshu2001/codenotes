@@ -14,7 +14,7 @@
 
 ## 📸 Demo
 
-![CodeNotes Demo](https://github.com/user-attachments/assets/ec6295b0-1df1-4cac-ac89-a5294ea72422)
+![CodeNotes Demo](images/demo.png)
 
 *See CodeNotes in action: Add notes, view highlights, and collaborate seamlessly.*
 
@@ -352,22 +352,22 @@ CodeNotes stores data in `.codenotes` (JSON format):
 ## 📸 Screenshots
 
 ### Highlighted Code
-![Highlighted Code](https://github.com/user-attachments/assets/4dcfdff1-746b-4998-8c7d-ee1314d99795)
+![Highlighted Code](images/highlighted-code.png)
 
 *Code with notes highlighted in soft background colors*
 
 ### Sidebar View
-![Sidebar View](https://github.com/user-attachments/assets/18d13217-5e9f-4671-b81e-f205ec60e6a9)
+![Sidebar View](images/sidebar-view.png)
 
 *CodeNotes sidebar showing notes organized by file*
 
 ### Hover Tooltip
-![Hover Tooltip](https://github.com/user-attachments/assets/bf1ca98b-a4e8-4281-9202-4ab7cb20dd63)
+![Hover Tooltip](images/hover-tooltip.png)
 
 *Hover over highlighted code to see note details*
 
 ### Panel View
-![Panel View](https://github.com/user-attachments/assets/ec6295b0-1df1-4cac-ac89-a5294ea72422)
+![Panel View](images/panel-view.png)
 
 
 *CodeNotes panel showing all notes for a code range*
