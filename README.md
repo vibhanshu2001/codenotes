@@ -14,7 +14,7 @@
 
 ## 📸 Demo
 
-![CodeNotes Demo](https://your-gif-link-here.gif)
+![CodeNotes Demo](https://i.ibb.co/3ywbK4rx/Screencast-from-2025-11-06-00-32-09.gif)
 
 *See CodeNotes in action: Add notes, view highlights, and collaborate seamlessly.*
 
@@ -352,22 +352,22 @@ CodeNotes stores data in `.codenotes` (JSON format):
 ## 📸 Screenshots
 
 ### Highlighted Code
-![Highlighted Code](https://your-screenshot-link-1.png)
+![Highlighted Code](https://i.ibb.co/nqBbWx2S/Screenshot-from-2025-11-06-00-36-02.png)
 
 *Code with notes highlighted in soft background colors*
 
 ### Sidebar View
-![Sidebar View](https://your-screenshot-link-2.png)
+![Sidebar View](https://i.ibb.co/4g0gkRTL/Screenshot-from-2025-11-06-00-35-48.png)
 
 *CodeNotes sidebar showing notes organized by file*
 
 ### Hover Tooltip
-![Hover Tooltip](https://your-screenshot-link-3.png)
+![Hover Tooltip](https://i.ibb.co/Q35qvFx0/Screenshot-from-2025-11-06-00-36-12.png)
 
 *Hover over highlighted code to see note details*
 
 ### Panel View
-![Panel View](https://your-screenshot-link-4.png)
+![Panel View](https://i.ibb.co/xKYNR9QS/Screenshot-from-2025-11-06-00-36-36.png)
 
 *CodeNotes panel showing all notes for a code range*
 
@@ -405,15 +405,12 @@ This project is licensed under the MIT License - see the [LICENSE](https://githu
 
 - Built with ❤️ for the developer community
 - Inspired by tools like GitLens and Todo Tree
-- Thanks to all contributors and users!
 
 ---
 
 ## 📞 Support
 
-- **Documentation**: [Full documentation](https://github.com/vibhanshu2001/codenotes/wiki)
 - **Issues**: [Report a bug](https://github.com/vibhanshu2001/codenotes/issues)
-- **Discussions**: [Ask questions](https://github.com/vibhanshu2001/codenotes/discussions)
 - **Email**: [v2001.garg@gmail.com](mailto:v2001.garg@gmail.com)
 
 ---
