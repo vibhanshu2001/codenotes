@@ -1,0 +1,46 @@
+{
+  "notes": [
+    {
+      "filePath": "src/extension.ts",
+      "functionName": "activate",
+      "codeHash": "a4f29b",
+      "range": {
+        "start": 15,
+        "end": 20
+      },
+      "noteText": "Consider refactoring this initialization logic into a separate function",
+      "authorName": "Vibhanshu Garg",
+      "authorEmail": "vibhanshu@example.com",
+      "timestamp": "2025-11-05T14:10:00Z",
+      "id": "abc123def456"
+    },
+    {
+      "filePath": "src/storage/notesStorage.ts",
+      "functionName": "loadNotes",
+      "codeHash": "b7e3c2",
+      "range": {
+        "start": 18,
+        "end": 18
+      },
+      "noteText": "Add error handling for malformed JSON",
+      "authorName": "John Doe",
+      "authorEmail": "john@example.com",
+      "timestamp": "2025-11-05T15:30:00Z",
+      "id": "def456ghi789"
+    },
+    {
+      "filePath": "src/commands/addNote.ts",
+      "functionName": null,
+      "codeHash": "c9f1a3",
+      "range": {
+        "start": 35,
+        "end": 42
+      },
+      "noteText": "This hash calculation could be optimized by caching results",
+      "authorName": "Jane Smith",
+      "authorEmail": null,
+      "timestamp": "2025-11-05T16:45:00Z",
+      "id": "ghi789jkl012"
+    }
+  ]
+}

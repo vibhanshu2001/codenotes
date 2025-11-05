@@ -1,0 +1,244 @@
+{
+  "name": "codenotes",
+  "displayName": "CodeNotes",
+  "description": "Add and manage notes directly in your code with multi-author support",
+  "version": "1.0.0",
+  "publisher": "codenotes",
+  "author": {
+    "name": "Vibhanshu Garg",
+    "email": "v2001.garg@gmail.com"
+  },
+  "engines": {
+    "vscode": "^1.90.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "main": "./dist/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "codenotes.addNote",
+        "title": "Add CodeNote",
+        "category": "CodeNotes",
+        "icon": "$(add)"
+      },
+      {
+        "command": "codenotes.editNoteAtCursor",
+        "title": "Edit CodeNote at Cursor",
+        "category": "CodeNotes",
+        "icon": "$(edit)"
+      },
+      {
+        "command": "codenotes.deleteNoteAtCursor",
+        "title": "Delete CodeNote at Cursor",
+        "category": "CodeNotes",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "codenotes.deleteNote",
+        "title": "Delete CodeNote",
+        "category": "CodeNotes",
+        "icon": "$(trash)"
+      },
+      {
+        "command": "codenotes.editNote",
+        "title": "Edit CodeNote",
+        "category": "CodeNotes",
+        "icon": "$(edit)"
+      },
+      {
+        "command": "codenotes.refresh",
+        "title": "Refresh CodeNotes",
+        "category": "CodeNotes",
+        "icon": "$(refresh)"
+      },
+      {
+        "command": "codenotes.revealNote",
+        "title": "Go to CodeNote",
+        "category": "CodeNotes",
+        "icon": "$(go-to-file)"
+      },
+      {
+        "command": "codenotes.showNotes",
+        "title": "Show CodeNotes at Cursor",
+        "category": "CodeNotes",
+        "icon": "$(eye)"
+      },
+      {
+        "command": "codenotes.copyNoteId",
+        "title": "Copy CodeNote ID",
+        "category": "CodeNotes",
+        "icon": "$(clippy)"
+      },
+      {
+        "command": "codenotes.cleanNotes",
+        "title": "Clean Corrupted CodeNote Text",
+        "category": "CodeNotes",
+        "icon": "$(sparkle)"
+      },
+      {
+        "command": "codenotes.openNoteInPanel",
+        "title": "Open CodeNote in Panel",
+        "category": "CodeNotes",
+        "icon": "$(eye)"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "codenotes.addNote",
+        "key": "ctrl+shift+n",
+        "mac": "cmd+shift+n",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codenotes.editNoteAtCursor",
+        "key": "ctrl+shift+e",
+        "mac": "cmd+shift+e",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codenotes.deleteNoteAtCursor",
+        "key": "ctrl+shift+d",
+        "mac": "cmd+shift+d",
+        "when": "editorTextFocus"
+      },
+      {
+        "command": "codenotes.showNotes",
+        "key": "ctrl+shift+v",
+        "mac": "cmd+shift+v",
+        "when": "editorTextFocus"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "codenotes.addNote",
+          "group": "codenotes@1",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "codenotes.editNoteAtCursor",
+          "group": "codenotes@2",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "codenotes.deleteNoteAtCursor",
+          "group": "codenotes@3",
+          "when": "editorTextFocus"
+        },
+        {
+          "command": "codenotes.showNotes",
+          "group": "codenotes@4",
+          "when": "editorTextFocus"
+        }
+      ],
+      "view/title": [
+        {
+          "command": "codenotes.showNotes",
+          "when": "view == codenotesView",
+          "group": "navigation",
+          "icon": "$(eye)"
+        },
+        {
+          "command": "codenotes.refresh",
+          "when": "view == codenotesView",
+          "group": "navigation"
+        }
+      ],
+      "view/item/context": [
+        {
+          "command": "codenotes.copyNoteId",
+          "when": "view == codenotesView && viewItem == note",
+          "group": "inline@0"
+        },
+        {
+          "command": "codenotes.editNote",
+          "when": "view == codenotesView && viewItem == note",
+          "group": "inline@1"
+        },
+        {
+          "command": "codenotes.deleteNote",
+          "when": "view == codenotesView && viewItem == note",
+          "group": "inline@2"
+        },
+        {
+          "command": "codenotes.copyNoteId",
+          "when": "view == codenotesView && viewItem == note",
+          "group": "context@1"
+        }
+      ]
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "codenotes-sidebar",
+          "title": "CodeNotes",
+          "icon": "$(comment-discussion)"
+        }
+      ]
+    },
+    "views": {
+      "codenotes-sidebar": [
+        {
+          "id": "codenotesView",
+          "name": "CodeNotes",
+          "contextualTitle": "CodeNotes"
+        }
+      ]
+    },
+    "viewsWelcome": [
+      {
+        "view": "codenotesView",
+        "contents": "No CodeNotes yet.\n\nAdd your first CodeNote:\n- Select text\n- Press **Ctrl+Shift+N** (Cmd+Shift+N on Mac)\n- Or right-click and select **Add CodeNote**\n\n[Add CodeNote](command:codenotes.addNote)"
+      }
+    ],
+    "colors": [
+      {
+        "id": "codenotes.highlightBackground",
+        "description": "Background color for noted code",
+        "defaults": {
+          "dark": "#FFD70012",
+          "light": "#FFD70012",
+          "highContrast": "#FFD70030"
+        }
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run package",
+    "compile": "npm run check-types && npm run lint && node esbuild.js",
+    "watch": "npm-run-all -p watch:*",
+    "watch:esbuild": "node esbuild.js --watch",
+    "watch:tsc": "tsc --noEmit --watch --project tsconfig.json",
+    "package": "npm run check-types && npm run lint && node esbuild.js --production",
+    "compile-tests": "tsc -p . --outDir out",
+    "watch-tests": "tsc -p . -w --outDir out",
+    "pretest": "npm run compile-tests && npm run compile && npm run lint",
+    "check-types": "tsc --noEmit",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.90.0",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "22.x",
+    "@typescript-eslint/eslint-plugin": "^8.39.0",
+    "@typescript-eslint/parser": "^8.39.0",
+    "eslint": "^9.32.0",
+    "esbuild": "^0.25.8",
+    "npm-run-all": "^4.1.5",
+    "typescript": "^5.9.2",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+    "@vscode/vsce": "^3.2.1"
+  },
+  "dependencies": {
+    "@typescript-eslint/typescript-estree": "^8.39.0",
+    "crypto-js": "^4.2.0",
+    "@types/crypto-js": "^4.2.2"
+  }
+}
