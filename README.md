@@ -14,7 +14,7 @@
 
 ## 📸 Demo
 
-![CodeNotes Demo](https://i.ibb.co/3ywbK4rx/Screencast-from-2025-11-06-00-32-09.gif)
+![CodeNotes Demo](https://github.com/user-attachments/assets/ec6295b0-1df1-4cac-ac89-a5294ea72422)
 
 *See CodeNotes in action: Add notes, view highlights, and collaborate seamlessly.*
 
@@ -352,22 +352,23 @@ CodeNotes stores data in `.codenotes` (JSON format):
 ## 📸 Screenshots
 
 ### Highlighted Code
-![Highlighted Code](https://i.ibb.co/nqBbWx2S/Screenshot-from-2025-11-06-00-36-02.png)
+![Highlighted Code](https://github.com/user-attachments/assets/4dcfdff1-746b-4998-8c7d-ee1314d99795)
 
 *Code with notes highlighted in soft background colors*
 
 ### Sidebar View
-![Sidebar View](https://i.ibb.co/4g0gkRTL/Screenshot-from-2025-11-06-00-35-48.png)
+![Sidebar View](https://github.com/user-attachments/assets/18d13217-5e9f-4671-b81e-f205ec60e6a9)
 
 *CodeNotes sidebar showing notes organized by file*
 
 ### Hover Tooltip
-![Hover Tooltip](https://i.ibb.co/Q35qvFx0/Screenshot-from-2025-11-06-00-36-12.png)
+![Hover Tooltip](https://github.com/user-attachments/assets/bf1ca98b-a4e8-4281-9202-4ab7cb20dd63)
 
 *Hover over highlighted code to see note details*
 
 ### Panel View
-![Panel View](https://i.ibb.co/xKYNR9QS/Screenshot-from-2025-11-06-00-36-36.png)
+![Panel View](https://github.com/user-attachments/assets/ec6295b0-1df1-4cac-ac89-a5294ea72422)
+
 
 *CodeNotes panel showing all notes for a code range*
 
