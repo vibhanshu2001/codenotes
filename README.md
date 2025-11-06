@@ -3,10 +3,10 @@
 **Add contextual notes directly in your code with multi-author support, Git integration, and smart code-aware relocation.**
 
 ![VS Code Extension](https://img.shields.io/badge/VS%20Code-Extension-blue?logo=visual-studio-code)
-![Version](https://img.shields.io/badge/version-1.0.0-green)
+![Version](https://img.shields.io/badge/version-1.0.3-green)
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
-[![Marketplace](https://img.shields.io/badge/Marketplace-Install-blue?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=codenotes.codenotes)
+[![Marketplace](https://img.shields.io/badge/Marketplace-Install-blue?logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=VibhanshuGarg.vibhanshugarg-codenotes)
 [![GitHub](https://img.shields.io/badge/GitHub-Repository-black?logo=github)](https://github.com/vibhanshu2001/codenotes)
 [![Issues](https://img.shields.io/badge/Issues-Report-red?logo=github)](https://github.com/vibhanshu2001/codenotes/issues)
 
@@ -68,11 +68,34 @@ CodeNotes lets you add contextual notes directly in your code files. Notes stay 
 
 ### Installation
 
-1. **Open VS Code**
+#### Supported Editors
+
+CodeNotes works with **Visual Studio Code** and VS Code-based editors including:
+- **Visual Studio Code** (official)
+- **Cursor**
+- **Windsurf**
+- Any editor based on VS Code
+
+#### Installation Steps
+
+1. **Open your editor** (VS Code, Cursor, Windsurf, etc.)
 2. **Go to Extensions** (`Ctrl+Shift+X` / `Cmd+Shift+X`)
-3. **Search**: Type "CodeNotes"
+3. **Search**: Type "CodeNotes" or "vibhanshugarg-codenotes"
 4. **Install**: Click the Install button
-5. **Reload**: Restart VS Code if prompted
+5. **Reload**: Restart your editor if prompted
+
+#### Extension Not Found in Search?
+
+If CodeNotes doesn't appear in the extension search, you can configure the Marketplace URL manually:
+
+1. **Open Settings**: `Ctrl+,` (or `Cmd+,` on Mac)
+2. **Search for**: "marketplace" or "gallery"
+3. **Find**: `Extensions: Gallery Service URL` (or `extensions.gallery.serviceUrl`)
+4. **Change to**: `https://marketplace.visualstudio.com/_apis/public/gallery`
+5. **Restart** your editor
+6. **Try searching again** for "CodeNotes"
+
+Alternatively, you can install directly from the [Marketplace](https://marketplace.visualstudio.com/items?itemName=VibhanshuGarg.vibhanshugarg-codenotes).
 
 ### Your First CodeNote (30 seconds)
 
@@ -343,7 +366,7 @@ CodeNotes stores data in `.codenotes` (JSON format):
 
 ### Compatibility
 
-- **VS Code**: 1.90.0 or higher
+- **Editors**: Visual Studio Code 1.90.0 or higher, Cursor, Windsurf, and other VS Code-based editors
 - **Languages**: Works with all file types
 - **Platforms**: Windows, macOS, Linux
 
